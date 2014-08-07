@@ -13,11 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var billAmountTextField: UITextField!
     @IBOutlet weak var splitCountLabel: UILabel!
-    @IBOutlet weak var totalLabel: UILabel!
 
     var billAmount : Double = 0
     var tipAmount : Double = 0
-    var billTotal : Double = 0
 
     var tipPercent : Double = 0.15
     var splitCount = 1
@@ -84,9 +82,6 @@ class ViewController: UIViewController {
         billAmount = NSString(string: billAmountTextField.text).doubleValue
         tipAmount = billAmount * tipPercent / Double(splitCount)
         tipLabel.text = NSString(format: "$%.2f", tipAmount)
-
-        billTotal = billAmount + tipAmount
-        totalLabel.text = NSString(format: "$%.2f", billTotal)
     }
 
     override func viewDidLoad() {
