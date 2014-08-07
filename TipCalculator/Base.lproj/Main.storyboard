@@ -54,88 +54,24 @@
                                     <action selector="onCalculateButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wX2-tu-4eM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLe-jn-plD">
-                                <rect key="frame" x="153" y="336" width="67" height="67"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="67" id="F3Z-YA-sPN"/>
-                                    <constraint firstAttribute="width" constant="67" id="kJd-1i-Xc8"/>
-                                </constraints>
-                                <state key="normal" image="10unselected">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="on10buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yxr-G9-bys"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvh-3o-feg">
-                                <rect key="frame" x="228" y="336" width="67" height="67"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="67" id="bja-XX-BRr"/>
-                                    <constraint firstAttribute="width" constant="67" id="jgR-Iq-Gbx"/>
-                                </constraints>
-                                <state key="normal" image="15unselected">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="on15buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nzx-Qx-F20"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pY-QB-2Ea">
-                                <rect key="frame" x="303" y="336" width="67" height="67"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="67" id="Gah-bI-rhi"/>
-                                    <constraint firstAttribute="width" constant="67" id="v3j-GM-wPS"/>
-                                </constraints>
-                                <state key="normal" image="20unselected">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="on20buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lXq-hR-ASu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjL-8i-iEj">
-                                <rect key="frame" x="378" y="336" width="67" height="67"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="67" id="7EB-JG-uEY"/>
-                                    <constraint firstAttribute="width" constant="67" id="zyq-bB-WUg"/>
-                                </constraints>
-                                <state key="normal" image="25unselected">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="on25buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qtX-fI-gnn"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Y8e-mw-ZAp" firstAttribute="top" secondItem="ymS-fy-xZQ" secondAttribute="bottom" constant="17" id="85x-gM-9Ac"/>
-                            <constraint firstItem="0pY-QB-2Ea" firstAttribute="leading" secondItem="yvh-3o-feg" secondAttribute="trailing" constant="8" id="8fR-r6-1gu"/>
-                            <constraint firstItem="yvh-3o-feg" firstAttribute="centerY" secondItem="nLe-jn-plD" secondAttribute="centerY" id="9To-3z-akW"/>
                             <constraint firstAttribute="centerX" secondItem="Bif-TY-uvc" secondAttribute="centerX" id="ACP-kA-GEO"/>
-                            <constraint firstItem="yvh-3o-feg" firstAttribute="leading" secondItem="nLe-jn-plD" secondAttribute="trailing" constant="8" id="Bk1-PU-3u5"/>
-                            <constraint firstItem="yvh-3o-feg" firstAttribute="centerY" secondItem="0pY-QB-2Ea" secondAttribute="centerY" id="EkC-YP-Jnd"/>
                             <constraint firstAttribute="centerX" secondItem="Y8e-mw-ZAp" secondAttribute="centerX" id="JAX-uu-cas"/>
                             <constraint firstAttribute="trailing" secondItem="oWj-ot-kIM" secondAttribute="trailing" id="P0G-Sn-98f"/>
                             <constraint firstItem="oWj-ot-kIM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Vq4-LS-7KZ"/>
-                            <constraint firstAttribute="centerX" secondItem="0pY-QB-2Ea" secondAttribute="centerX" constant="-36.5" id="hsx-wK-WIz"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oWj-ot-kIM" secondAttribute="bottom" id="l2Q-v7-x2F"/>
                             <constraint firstItem="Bif-TY-uvc" firstAttribute="top" secondItem="Y8e-mw-ZAp" secondAttribute="bottom" constant="37" id="lYt-8g-1FF"/>
                             <constraint firstItem="oWj-ot-kIM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mxM-0Q-VUe"/>
-                            <constraint firstItem="vjL-8i-iEj" firstAttribute="leading" secondItem="0pY-QB-2Ea" secondAttribute="trailing" constant="8" id="n9h-9b-zjT"/>
-                            <constraint firstItem="0pY-QB-2Ea" firstAttribute="top" secondItem="Bif-TY-uvc" secondAttribute="bottom" constant="38" id="q8S-PB-tDz"/>
                             <constraint firstAttribute="centerX" secondItem="ymS-fy-xZQ" secondAttribute="centerX" id="u2d-F3-oeu"/>
-                            <constraint firstItem="vjL-8i-iEj" firstAttribute="centerY" secondItem="0pY-QB-2Ea" secondAttribute="centerY" id="wdv-wf-2Ry"/>
                             <constraint firstItem="ymS-fy-xZQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="ylE-gH-mRe"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="billAmountTextField" destination="Y8e-mw-ZAp" id="EYI-UH-PmN"/>
-                        <outlet property="fifteenButton" destination="yvh-3o-feg" id="ohm-QX-BcY"/>
-                        <outlet property="tenButton" destination="nLe-jn-plD" id="6Rg-nD-jBI"/>
                         <outlet property="tipLabel" destination="ymS-fy-xZQ" id="mgd-Ou-gS8"/>
-                        <outlet property="twentyButton" destination="0pY-QB-2Ea" id="3aV-cL-XeP"/>
-                        <outlet property="twentyFiveButton" destination="vjL-8i-iEj" id="oRS-4R-Ng8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -143,10 +79,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="10unselected" width="67" height="67"/>
-        <image name="15unselected" width="67" height="67"/>
-        <image name="20unselected" width="67" height="67"/>
-        <image name="25unselected" width="67" height="67"/>
         <image name="greenImage" width="320" height="568"/>
     </resources>
 </document>

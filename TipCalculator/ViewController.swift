@@ -18,48 +18,6 @@ class ViewController: UIViewController {
 
     var tipPercent : Double = 0.15
 
-    @IBOutlet weak var tenButton: UIButton!
-    @IBOutlet weak var fifteenButton: UIButton!
-    @IBOutlet weak var twentyButton: UIButton!
-    @IBOutlet weak var twentyFiveButton: UIButton!
-
-    @IBAction func on10buttonTapped(sender: UIButton)
-    {
-        tipPercent = 0.10
-        resetAllButtons()
-        tenButton.setImage(UIImage(named: "10Selected"), forState: .Normal)
-    }
-
-    @IBAction func on15buttonTapped(sender: UIButton)
-    {
-        tipPercent = 0.15
-        resetAllButtons()
-        fifteenButton.setImage(UIImage(named: "15Selected"), forState: .Normal)
-    }
-
-    @IBAction func on20buttonTapped(sender: UIButton)
-    {
-        tipPercent = 0.20
-        resetAllButtons()
-        twentyButton.setImage(UIImage(named: "20Selected"), forState: .Normal)
-    }
-
-    @IBAction func on25buttonTapped(sender: UIButton)
-    {
-        tipPercent = 0.25
-        resetAllButtons()
-        twentyFiveButton.setImage(UIImage(named: "25Selected"), forState: .Normal)
-    }
-
-    func resetAllButtons()
-    {
-        tenButton.setImage(UIImage(named: "10unselected"), forState: .Normal)
-        fifteenButton.setImage(UIImage(named: "15unselected"), forState: .Normal)
-        twentyButton.setImage(UIImage(named: "20unselected"), forState: .Normal)
-        twentyFiveButton.setImage(UIImage(named: "25unselected"), forState: .Normal)
-    }
-
-
     @IBAction func onCalculateButtonTapped(sender: UIButton)
     {
         billAmount = NSString(string: billAmountTextField.text).doubleValue
