@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     {
         billAmount = NSString(string: billAmountTextField.text).doubleValue
         tipAmount = billAmount * tipPercent
-        tipLabel.text = NSString(format: "$%.2f", tipAmount)
+        tipLabel.text = "\(tipAmount)"
     }
 
     override func viewDidLoad() {
