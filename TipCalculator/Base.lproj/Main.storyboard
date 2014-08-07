@@ -16,9 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenImage" translatesAutoresizingMaskIntoConstraints="NO" id="oWj-ot-kIM">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y8e-mw-ZAp">
                                 <rect key="frame" x="246" y="159" width="108" height="54"/>
                                 <constraints>
@@ -60,11 +57,7 @@
                             <constraint firstItem="Y8e-mw-ZAp" firstAttribute="top" secondItem="ymS-fy-xZQ" secondAttribute="bottom" constant="17" id="85x-gM-9Ac"/>
                             <constraint firstAttribute="centerX" secondItem="Bif-TY-uvc" secondAttribute="centerX" id="ACP-kA-GEO"/>
                             <constraint firstAttribute="centerX" secondItem="Y8e-mw-ZAp" secondAttribute="centerX" id="JAX-uu-cas"/>
-                            <constraint firstAttribute="trailing" secondItem="oWj-ot-kIM" secondAttribute="trailing" id="P0G-Sn-98f"/>
-                            <constraint firstItem="oWj-ot-kIM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Vq4-LS-7KZ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oWj-ot-kIM" secondAttribute="bottom" id="l2Q-v7-x2F"/>
                             <constraint firstItem="Bif-TY-uvc" firstAttribute="top" secondItem="Y8e-mw-ZAp" secondAttribute="bottom" constant="37" id="lYt-8g-1FF"/>
-                            <constraint firstItem="oWj-ot-kIM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mxM-0Q-VUe"/>
                             <constraint firstAttribute="centerX" secondItem="ymS-fy-xZQ" secondAttribute="centerX" id="u2d-F3-oeu"/>
                             <constraint firstItem="ymS-fy-xZQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="ylE-gH-mRe"/>
                         </constraints>
@@ -78,7 +71,4 @@
             </objects>
         </scene>
     </scenes>
-    <resources>
-        <image name="greenImage" width="320" height="568"/>
-    </resources>
 </document>
