@@ -12,13 +12,11 @@ class ViewController: UIViewController {
                             
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var billAmountTextField: UITextField!
-    @IBOutlet weak var splitCountLabel: UILabel!
 
     var billAmount : Double = 0
     var tipAmount : Double = 0
 
     var tipPercent : Double = 0.15
-    var splitCount = 1
 
     @IBOutlet weak var tenButton: UIButton!
     @IBOutlet weak var fifteenButton: UIButton!
@@ -62,25 +60,10 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func onUpArrowTapped(sender: UIButton)
-    {
-        splitCount++
-        splitCountLabel.text = "\(splitCount)"
-    }
-
-    @IBAction func onDownArrowTapped(sender: UIButton)
-    {
-        if splitCount > 1
-        {
-        splitCount--
-        splitCountLabel.text = "\(splitCount)"
-        }
-    }
-
     @IBAction func onCalculateButtonTapped(sender: UIButton)
     {
         billAmount = NSString(string: billAmountTextField.text).doubleValue
-        tipAmount = billAmount * tipPercent / Double(splitCount)
+        tipAmount = billAmount * tipPercent
         tipLabel.text = NSString(format: "$%.2f", tipAmount)
     }
 
